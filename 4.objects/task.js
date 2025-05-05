@@ -10,7 +10,7 @@ Student.prototype.setSubject = function(subjectName) {
 };
 
 Student.prototype.addMarks = function(...marksToAdd) {
-	if (!this.marks) return; // Проверка на отчисление
+	if (!this.marks) return; 
 	this.marks.push(...marksToAdd);
 };
 
